@@ -3,18 +3,20 @@
 <package format="3">
   <name>delivery_robot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="shahzaib@todo.todo">shahzaib</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Indoor Delivery Robot with Safety Zones</description>
+  <maintainer email="abdulwahab@ros2.local">Abdul Wahab</maintainer>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
   <depend>nav2_msgs</depend>
   <depend>std_msgs</depend>
+  <depend>delivery_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
+  <test_depend>ament_pep8</test_depend>
+  <test_depend>ament_pycodestyle</test_depend>
   <test_depend>python3-pytest</test_depend>
 
   <export>
