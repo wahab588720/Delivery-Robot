@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'delivery_server = delivery_robot.delivery_server:main',
+            'obstacle_spawner = delivery_robot.obstacle_spawner:main',
         ],
     },
 )
